@@ -17,7 +17,7 @@ git commit -m "mensaje" -> Podemos poner un mensaje al commit y es nuestro punto
 en nuestro historial del proyecto
 git -M main -> permite cambiar a la rama main
 git log ->Muestra historial de nuestros commits
-git log --online -> Muestras los commits realizados
+git log --oneline -> Muestras los commits realizados en una sola línea. 
 git rm archivo -> Borra un archivo
 git rm -r ->Elimina el directorio y los archivos
 git push -u origin main -Sube los archivos locales al repositorio remoto
